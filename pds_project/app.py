@@ -42,4 +42,4 @@ def generate_bill():
     return send_file(pdf_file, download_name="ration_bill.pdf", as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=false, host='0.0.0.0')
